@@ -16,3 +16,6 @@ Feature: Test End to End Admin Page Functionality
     And user select user role and enter employee name and user select the status
     And user enter username and password and confirm password
     And user click on save button admin page
+
+    Scenario: validate Claim Page
+    When user Click on page
