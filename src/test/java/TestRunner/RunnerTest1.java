@@ -6,7 +6,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		
 		features="src/test/java/Features/TS_001_PIMPageFunctionality.feature",
-		glue ="StepDefinition"
+		glue ="StepDefinition",
+		dryRun =true
 		
 		
 		)
